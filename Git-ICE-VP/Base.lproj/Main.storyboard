@@ -5,6 +5,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="06M-af-ocD">
+            <objects>
+                <viewController id="Ldu-YQ-KO2" customClass="SeaVCViewController" customModule="Git_ICE_VP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dHY-zA-CKE"/>
+                        <viewControllerLayoutGuide type="bottom" id="rBV-kc-g0g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cyc-kY-drJ">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="xLf-Fi-rjs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2bL-9M-6ki" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="734"/>
+        </scene>
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
@@ -77,6 +95,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Ldu-YQ-KO2" kind="relationship" relationship="viewControllers" id="9ah-fz-3T0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

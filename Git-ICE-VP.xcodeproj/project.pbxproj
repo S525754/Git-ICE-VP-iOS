@@ -15,6 +15,7 @@
 		5EEC2EDC1DDA46E6002C727D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEC2EDA1DDA46E6002C727D /* LaunchScreen.storyboard */; };
 		5EEC2EE71DDA46E6002C727D /* Git_ICE_VPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC2EE61DDA46E6002C727D /* Git_ICE_VPTests.swift */; };
 		5EEC2EF21DDA46E6002C727D /* Git_ICE_VPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC2EF11DDA46E6002C727D /* Git_ICE_VPUITests.swift */; };
+		5EEC2F001DDA486E002C727D /* SeaVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC2EFF1DDA486E002C727D /* SeaVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EEC2EED1DDA46E6002C727D /* Git-ICE-VPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-ICE-VPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEC2EF11DDA46E6002C727D /* Git_ICE_VPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ICE_VPUITests.swift; sourceTree = "<group>"; };
 		5EEC2EF31DDA46E6002C727D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEC2EFF1DDA486E002C727D /* SeaVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5EEC2ECF1DDA46E6002C727D /* AppDelegate.swift */,
 				5EEC2ED11DDA46E6002C727D /* FirstViewController.swift */,
+				5EEC2EFF1DDA486E002C727D /* SeaVCViewController.swift */,
 				5EEC2ED31DDA46E6002C727D /* SecondViewController.swift */,
 				5EEC2ED51DDA46E6002C727D /* Main.storyboard */,
 				5EEC2ED81DDA46E6002C727D /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEC2ED41DDA46E6002C727D /* SecondViewController.swift in Sources */,
+				5EEC2F001DDA486E002C727D /* SeaVCViewController.swift in Sources */,
 				5EEC2ED01DDA46E6002C727D /* AppDelegate.swift in Sources */,
 				5EEC2ED21DDA46E6002C727D /* FirstViewController.swift in Sources */,
 			);
