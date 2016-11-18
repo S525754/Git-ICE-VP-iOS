@@ -12,7 +12,7 @@ class EhVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Vinod ga push chesina chusko")
+       print("Test")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
