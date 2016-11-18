@@ -19,7 +19,14 @@ class BeeVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    
+    @IBAction func clickMe(sender:UIButton)->Void{
+        
+        print("I Have been added")
+        
+    }
 
 }
 
